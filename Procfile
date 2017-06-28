@@ -3,4 +3,4 @@ web: python app.py
 =======
 web: python app.py
 >>>>>>> 7127c09c85bd3dc12a7210fdf2ce7c35b47afc5e
-web: gunicorn run:app --log-file=-
+web: gunicorn py:app --log-file=-
